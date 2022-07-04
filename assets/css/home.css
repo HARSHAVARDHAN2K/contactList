@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 50vw;
+    margin-left: 25vw;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+    align-content: center;
+    margin-left: 25vw;
+    background-color: cadetblue;
+    border: 2px solid white;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+form{
+    align-items: center;
+    width: 80vw;
+    margin-left: 25vw;
+}
+
+li:hover{
+    background-color: aqua;
+    font: white;
+    box-shadow: insetLi;
+}
+
